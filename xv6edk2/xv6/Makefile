@@ -190,8 +190,8 @@ UPROGS=\
 	_wc\
 	_hello\
 	_zombie\
-	_student_id\
-	_test_wait\
+	_studentid\
+	_testwait\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
