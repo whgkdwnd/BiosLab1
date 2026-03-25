@@ -91,7 +91,7 @@ sys_uptime(void)
 }
 
 int
-sys_exit2(int status)
+sys_exit2(void)
 {
   int status;
 
@@ -102,7 +102,7 @@ sys_exit2(int status)
 }
 
 int
-sys_wait2(int *status)
+sys_wait2(void)
 {
   int *status;
 
